@@ -17,7 +17,7 @@ Zigbee ztick for z2m. CC2652P1 module from RFStar
 
 Обсудить (на русском) можно здесь: https://t.me/zigbeer
 
-In English
+## In English
 In connection with the entry to the market of pre-assembled wireless modules from the reputable company RFStar (RF-BM-2652P1) https://szrfstar.com/product/252-cn.html, it became possible to simplify the self-assembly of the device.
 As a result, the circuit, as before, repeats the topology of boards of the LAUNCHXL family and documentation from TI. That allows you to use FW debugged on the specified devboard.
 
