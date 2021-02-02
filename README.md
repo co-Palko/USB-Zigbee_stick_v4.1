@@ -1,7 +1,7 @@
 # USB-Zigbee_stick_v4.1
-Zigbee ztick for z2m. CC2652P1 module from RFStar 
+Zigbee ztick for z2m. CC2652P1 and CC2652P2 modules from RFStar 
 
-В связи с выходом на рынок предсобранных беспроводных модулей от Уважаемой компании RFStar (RF-BM-2652P1) https://szrfstar.com/product/252-cn.html появилась возможность упростить самостоятельную сборку устройства.
+В связи с выходом на рынок предсобранных беспроводных модулей от Уважаемой компании RFStar (RF-BM-2652Px) https://szrfstar.com/product/252-cn.html появилась возможность упростить самостоятельную сборку устройства.
 ![alt tag](https://github.com/co-Palko/USB-Zigbee_stick_v4.1/blob/main/images/ZigStar4.1c.jpg)
 В итоге схема, как с прежде повторяет топологию плат семейства LAUNCHXL и документации от TI. Что позволяет использовать FW отлаженное на указанной devboard.
 
@@ -20,6 +20,8 @@ Zigbee ztick for z2m. CC2652P1 module from RFStar
 
 Обсудить (на русском) можно здесь: https://t.me/zigbeer
 
+Добавлено: Gerber для модуля RF-BM-2652P2, BOM и SMT.
+
 
 ## In English
 In connection with the entry to the market of pre-assembled wireless modules from the reputable company RFStar (RF-BM-2652P1) https://szrfstar.com/product/252-cn.html, it became possible to simplify the self-assembly of the device.
@@ -35,5 +37,7 @@ The difference between the CC2652 chip and the CC1352 is in the absence of a sub
 The board is equipped with a ARM Cortex debug connector for firmware and debugging (if necessary). The firmware is carried out via J-Link or XDS110. Tested with J-Link and Uniflash and J-Flash packages. In addition, it is possible to flash through the built-in UART using the Bootloader, which can be entered at startup using the BTN-1 button.
 
 Standard firmware from the respected @Koen Kanters (https://github.com/Koenkk) https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0 developed for the board LAUNCHXL. It is the same for both the CC1352R and the CC2652R.
+
+Added: Gerber for RF-BM-2652P2 module, BOM and SMT.
 
 You can discuss (in Russian) here: https://t.me/zigbeer
